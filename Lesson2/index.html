@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Code Academy</title>
+    <link rel="icon" href="./images/1627049236code-academy-logo.jpg" />
+  </head>
+  <body id="code">
+    <h1 style="color: rgb(70, 219, 50)">Code Academy</h1>
+    <table border="1" align="center" width="500px">
+      <thead>
+        <tr>
+          <th align="center" colspan="2">Ad ve soyad</th>
+          <th>Universitet</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td align="center" colspan="1">Elvin</td>
+          <td align="center">Mustafayev</td>
+          <td align="center">BDU</td>
+        </tr>
+        <tr>
+          <td align="center" colspan="1">Cefer</td>
+          <td align="center">Mustafayev</td>
+          <td align="center">BDU</td>
+        </tr>
+        <tr>
+          <td align="center" colspan="1">Semral</td>
+          <td align="center">Mustafayev</td>
+          <td align="center">BDU</td>
+        </tr>
+        <tr>
+          <td align="center" colspan="1">Elvin</td>
+          <td align="center">Mustafayev</td>
+          <td align="center">BDU</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td align="center" colspan="3">Toplam 4 telebe</td>
+        </tr>
+      </tfoot>
+    </table>
+    <form enctype="multipart/form-data">
+      <div>
+        <label for="ad">Ad:</label>
+        <input id="ad" type="text" required placeholder="Adi daxil et" />
+      </div>
+      <div>
+        <label>Soyadd:</label>
+        <input type="text" readonly value="Elvin" placeholder="Adi daxil et" />
+      </div>
+      <div>
+        <label>Soyad:</label>
+        <input
+          type="text"
+          maxlength="10"
+          minlength="3"
+          placeholder="Adi daxil et"
+        />
+      </div>
+      <div>
+        <label>Number:</label>
+        <input
+          type="number"
+          max="100"
+          min="10"
+          step="20"
+          placeholder="number"
+        />
+      </div>
+      <div>
+        <label>email:</label>
+        <input type="email" autofocus placeholder="email" />
+      </div>
+      <div>
+        <label>password:</label>
+        <input type="password" required placeholder="password" />
+      </div>
+      <div>
+        <label>Time:</label>
+        <input type="time" />
+      </div>
+      <div>
+        <label>Date:</label>
+        <input type="date" max="2023-04-16" min="1995-04-16" />
+      </div>
+      <div>
+        <label>Tarix:</label>
+        <input type="datetime-local" />
+      </div>
+      <div>
+        <label>Month:</label>
+        <input type="month" />
+      </div>
+      <div>
+        <label>Week:</label>
+        <input type="week" />
+      </div>
+      <div>
+        <label>Color:</label>
+        <input type="color" />
+      </div>
+      <div>
+        <label>Checkbox:</label>
+        <input type="checkbox" checked />
+      </div>
+      <div>
+        <label>Male:</label>
+        <input type="radio" name="gender" checked />
+        <label>Female:</label>
+        <input type="radio" name="gender" checked />
+      </div>
+      <div>
+        <label>Tel:</label>
+        <input type="tel" placeholder="Tel" />
+      </div>
+      <div>
+        <label>Linkedin:</label>
+        <input type="url" placeholder="url" />
+      </div>
+      <div>
+        <label>File:</label>
+        <input type="file" multiple accept="image/*, video/*" />
+      </div>
+      <div>
+        <label>File:</label>
+        <input type="file" multiple accept="image/jpeg" />
+      </div>
+      <div>
+        <label>Image:</label>
+        <input
+          type="image"
+          src="../Lesson2/images/Arrow_icon.svg.png"
+          width="100px"
+        />
+      </div>
+      <div>
+        <label>Range:</label>
+        <input type="range" max="100" min="10" />
+      </div>
+      <div>
+        <label>Etrafli:</label>
+        <textarea placeholder="About yourself">Salam</textarea>
+      </div>
+      <div>
+        <label>Add region:</label>
+        <select required>
+          <option disabled selected>Select your country</option>
+          <optgroup label="Asia">
+            <option>Asia 1</option>
+            <option>Asia 2</option>
+            <option>Asia 3</option>
+          </optgroup>
+          <optgroup label="Avropa">
+            <option>Avropa 1</option>
+            <option>Avropa 2</option>
+            <option>Avropa 3</option>
+          </optgroup>
+          <option selected value="az">Azerbaijan</option>
+          <option>USA</option>
+          <option>Germany</option>
+        </select>
+      </div>
+      <div>
+        <label>Search:</label>
+        <input type="search" />
+      </div>
+      <div>
+        <label>Text:</label>
+        <input type="text" list="University" />
+        <datalist id="University">
+          <option>BDU</option>
+          <option>BDU</option>
+          <option>BDU</option>
+        </datalist>
+      </div>
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Gonder" />
+      <input type="button" value="Click me" />
+      <button type="submit">Gonder</button>
+    </form>
+  </body>
+</html>
